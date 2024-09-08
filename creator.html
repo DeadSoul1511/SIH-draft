@@ -4,68 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creators!!</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> <!-- Alpine.js for interactivity -->
 </head>
-<body id="bodyCr">
-    <header>
-        <h2 id="textCr"> Let's Meet Our Creators !</h2>
+<body class="bg-gray-100" id="bodyCr">
+    <header class="bg-gray-800 text-white py-6 text-center">
+        <h2 class="text-4xl font-bold">Let's Meet Our Creators!</h2>
     </header>
-    <nav>
-        <a href="home.html">HOME</a>
-        <a href="food.html">FOOD</a>
-        <a href="Sight-Seeing.html">SIGHT-SEEING</a>
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 text-white py-4 shadow-lg">
+        <div class="container mx-auto flex justify-center space-x-6">
+            <a href="home.html" class="hover:text-gray-400 transition">HOME</a>
+            <a href="food.html" class="hover:text-gray-400 transition">FOOD</a>
+            <a href="Sight-Seeing.html" class="hover:text-gray-400 transition">SIGHT-SEEING</a>
+        </div>
     </nav>
-    <main id="mainCr">
-        
-        <div class="creator-card">
-            <img src="soheb.jpg" alt="Creator 1" class="creator-image">
-            <h2>SOHEB RAHAMAN</h2>
-            <p>Department: Computer Science and Engineering</p>
-            <p>College: A.M.C ENGINEERING COLLEGE</p>
-        </div>
 
-        <div class="creator-card">
-            <img src="jb2.jpg" alt="Creator 2" class="creator-image">
-            <h2>JYOTSHNA BHARTI</h2>
-            <p>Department: Computer Science and Engineering (AIML)</p>
-            <p>College: A.M.C ENGINEERING COLLEGE</p>
-        </div>
-        <div class="creator-card">
-            <img src="sk.jpg" alt="Creator 3" class="creator-image">
-            <h2>SWETA KUMARI</h2>
-            <p>Department: Computer Science and Engineering</p>
-            <p>College: A.M.C ENGINEERING COLLEGE</p>
-        </div>
-        <div class="creator-card">
-            <img src="path_to_image1.jpg" alt="Creator 4" class="creator-image">
-            <h2>SHASWAT KUMAR DALAI</h2>
-            <p>Department: Computer Science and Engineering</p>
-            <p>College: A.M.C ENGINEERING COLLEGE</p>
-        </div>
-        <div class="creator-card">
-            <img src="ss.jpg" alt="Creator 5" class="creator-image">
-            <h2>SNEHA SHEKOBA</h2>
-            <p>Department: Computer Science and Engineering</p>
-            <p>College: A.M.C ENGINEERING COLLEGE</p>
-        </div>
-        <div class="creator-card">
-            <img src="path_to_image1.jpg" alt="Creator 6" class="creator-image">
-            <h2>SHREYAS N A</h2>
-            <p>Department: Computer Science and Engineering</p>
-            <p>College: A.M.C ENGINEERING COLLEGE</p>
-        </div>
+    <main id="mainCr" class="container mx-auto py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 
+            <!-- Creator Card 1 -->
+            <div class="creator-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="sr.jpg" alt="Creator 1" class="creator-image w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h2 class="text-xl font-semibold">SOHEB RAHAMAN</h2>
+                    <p class="mt-2">Department: Computer Science and Engineering</p>
+                    <p class="mt-1">College: A.M.C ENGINEERING COLLEGE</p>
+                </div>
+            </div>
+
+            <!-- Creator Card 2 -->
+            <div class="creator-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="jb.jpg" alt="Creator 2" class="creator-image w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h2 class="text-xl font-semibold">JYOTSHNA BHARTI</h2>
+                    <p class="mt-2">Department: Computer Science and Engineering (AIML)</p>
+                    <p class="mt-1">College: A.M.C ENGINEERING COLLEGE</p>
+                </div>
+            </div>
+
+            <!-- Creator Card 3 -->
+            <div class="creator-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="sk.jpg" alt="Creator 3" class="creator-image w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h2 class="text-xl font-semibold">SWETA KUMARI</h2>
+                    <p class="mt-2">Department: Computer Science and Engineering</p>
+                    <p class="mt-1">College: A.M.C ENGINEERING COLLEGE</p>
+                </div>
+            </div>
+
+            <!-- Creator Card 4 -->
+            <div class="creator-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="skd.jpg" alt="Creator 4" class="creator-image w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h2 class="text-xl font-semibold">SHASWAT KUMAR DALAI</h2>
+                    <p class="mt-2">Department: Computer Science and Engineering</p>
+                    <p class="mt-1">College: A.M.C ENGINEERING COLLEGE</p>
+                </div>
+            </div>
+
+            <!-- Creator Card 5 -->
+            <div class="creator-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="ss.jpg" alt="Creator 5" class="creator-image w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h2 class="text-xl font-semibold">SNEHA SHEKOBA</h2>
+                    <p class="mt-2">Department: Computer Science and Engineering</p>
+                    <p class="mt-1">College: A.M.C ENGINEERING COLLEGE</p>
+                </div>
+            </div>
+
+            <!-- Creator Card 6 -->
+            <div class="creator-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="Sna.jpg" alt="Creator 6" class="creator-image w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h2 class="text-xl font-semibold">SHREYAS N A</h2>
+                    <p class="mt-2">Department: Computer Science and Engineering</p>
+                    <p class="mt-1">College: A.M.C ENGINEERING COLLEGE</p>
+                </div>
+            </div>
+
+        </div>
     </main>
 
-    
-
-    <footer>
-        <a href="faqs.html">FAQS</a>
-        <a href="contact.html">CONTACT US</a>
-        <a href="#">TERMS OF USE</a>
-        <a href="creator.html">CREATORS</a>
-        <a href="#">&copy;</a>
+    <!-- Footer with Links -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center space-x-6">
+            <a href="faqs.html" class="hover:underline">FAQS</a>
+            <a href="contact.html" class="hover:underline">CONTACT US</a>
+            <a href="#" class="hover:underline">TERMS OF USE</a>
+            <a href="creator.html" class="hover:underline">CREATORS</a>
+            <a href="#">&copy; 2024 Bites & Views</a>
+        </div>
     </footer>
-    
+
 </body>
 </html>
