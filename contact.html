@@ -23,100 +23,87 @@
         }
     </style>
 </head>
-<body class="bg-beige min-h-screen flex flex-col justify-between">
-    
-    <!-- Header -->
-    <header class="bg-white py-6 shadow-md">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-gray-800">~ Bites and Views ~</h2>
+<header class="relative h-96 bg-cover bg-center bg-fixed" style="background-image: url('bg3.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center">
+        <div class="text-white">
+            <h1 class="text-6xl font-extrabold animate-fadeIn font-serif">~ Bites and Views ~</h1>
         </div>
-    </header>
-
+    </div>
+</header>
     <!-- Navigation -->
-    <nav class="bg-orange-300 py-4 shadow-sm">
+    <nav class="bg-[url('bg4.jpg')] text-amber-950 font-serif py-4 shadow-sm">
         <div class="container mx-auto text-center">
-            <a href="home.html" class="mx-4 text-lg font-semibold text-gray-700 hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out hover:rounded-lg">HOME</a>
-            <a href="food.html" class="mx-4 text-lg font-semibold text-gray-700 hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out hover:rounded-lg">FOOD</a>
-            <a href="Sight-Seeing.html" class="mx-4 text-lg font-semibold text-gray-700 hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out hover:rounded-lg">SIGHT-SEEING</a>
+            <a href="home.html" class="mx-4 text-lg  hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out hover:rounded-lg">HOME</a>
+            <a href="food.html" class="mx-4 text-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out hover:rounded-lg">FOOD</a>
+            <a href="Sight-Seeing.html" class="mx-4 text-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out hover:rounded-lg">SIGHT-SEEING</a>
         </div>
     </nav>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8">
-        <h1 id="hcont" class="text-3xl font-serif justify-center text-red-600 mb-8">
-            <i class="bi bi-exclamation-triangle-fill text-red-600 mr-2 content-center"></i> Emergency Contacts ! 
+    <main class="container mx-1 px-1 py-3 ">
+        <h1 id="hcont" class="text-3xl font-serif justify-center text-red-600 mb-4">
+            <i class="animate-pulse bi-exclamation-triangle-fill text-red-600 mr-2 content-center"></i>
+            <i class="text-red-600 content-center">Emergency Contacts ! </i> 
         </h1>
 
         <section class="mb-6">
             <h2 class="text-xl font-semibold font-serif text-gray-800 mb-2">
-                <i class="bi bi-bandaid mr-2"></i> Ambulance Services :
+                <i class="animate-pulse bi bi-bandaid text-red-600 mr-2"></i> Ambulance Services :
             </h2>
-            <p><span class="font-bold">Number:</span> 102<br>Available 24/7 for Medical Emergencies</p>
+            <p><span class="font-bold">Number:  102</span><br>Available 24/7 for Medical Emergencies</p>
         </section>
 
         <section class="mb-6">
             <h2 class="text-xl font-semibold font-serif text-gray-800 mb-2">
-                <i class="bi bi-fire mr-2"></i> Fire Brigade :
+                <i class="animate-pulse bi bi-fire text-red-600 mr-2"></i> Fire Brigade :
             </h2>
-            <p><span class="font-bold">Number:</span> 101<br>For fire-related emergencies, dial this number to reach the nearest fire station.</p>
+            <p><span class="font-bold">Number: 101</span><br>For fire-related emergencies, dial this number to reach the nearest fire station.</p>
         </section>
 
         <section class="mb-6">
             <h2 class="text-xl font-serif font-semibold text-gray-800 mb-2">
-                <i class="bi bi-shield-lock-fill mr-2"></i> Police :
+                <i class="animate-pulse bi bi-shield-lock-fill text-red-600 mr-2"></i> Police :
             </h2>
-            <p><span class="font-bold">Number:</span> 100<br>Reach the Police for crime, accidents, or general emergencies.</p>
+            <p><span class="font-bold">Number: 100 </span><br>Reach the Police for crime, accidents, or general emergencies.</p>
         </section>
 
         <section>
             <h2 class="text-xl font-semibold font-serif text-gray-800 mb-2">
-                <i class="bi bi-info-circle-fill mr-2"></i> Other Important Numbers :
+                <i class="animate-pulse bi bi-info-circle-fill text-red-600 mr-2"></i> Other Important Numbers :
             </h2>
             <ul class="list-disc ml-6">
                 <li class="mb-2 flex items-center">
-                    <i class="bi bi-headset mr-2"></i>
-                    <span class="font-bold">Disaster Management Helpline : </span> 1070
+                    <i class="animate-pulse bi bi-headset text-red-600 mr-2"></i>
+                    <span class="font-bold">Disaster Management Helpline : 1070 </span> 
                 </li>
                 <li class="mb-2 flex items-center">
-                    <i class="bi bi-gender-female mr-2"></i>
-                    <span class="font-bold">Women's Helpline :</span> 1091
+                    <i class="animate-pulse bi bi-gender-female text-red-600 mr-2"></i>
+                    <span class="font-bold">Women's Helpline : 1091 </span> 
                 </li>
                 <li class="mb-2 flex items-center">
-                    <i class="bi bi-heart-fill mr-2"></i>
-                    <span class="font-bold">Senior Citizen Helpline : </span> 1291
+                    <i class="animate-pulse bi bi-heart-fill text-red-600 mr-2"></i>
+                    <span class="font-bold">Senior Citizen Helpline : 1291 </span> 
                 </li>
-                <li class="mb-2 flex items-center">
-                    <i class="bi bi-emoji-smile-fill mr-2"></i>
-                    <span class="font-bold">Child Helpline :</span> 1098
+                <li class="mb-2 flex items-center ">
+                    <i class="animate-pulse bi bi-emoji-smile-fill text-red-600 mr-2"></i>
+                    <span class="font-bold">Child Helpline : 1098 </span> 
                 </li>
             </ul>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-orange-300 text-white py-6 font-serif">
+    <footer class="bg-[url('bg4.jpg')] text-amber-950 py-6 font-serif">
         <div class="container mx-auto text-center space-x-6">
-            <a href="faqs.html" class="hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">FAQS</a>
-            <a href="contact.html" class="hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">CONTACT US</a>
-            <a href="#" class="hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">TERMS OF USE</a>
-            <a href="creator.html" class="hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">CREATORS</a>
-            <a href="#" class="hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">&copy;</a>
+            <a href="faqs.html" class="hover:rounded-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">FAQS</a>
+            <a href="contact.html" class="hover:rounded-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">CONTACT US</a>
+            <a href="#" class="hover:rounded-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">TERMS OF USE</a>
+            <a href="creator.html" class="hover:rounded-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">CREATORS</a>
+            <a href="#" class="hover:rounded-lg hover:bg-orange-500 hover:px-4 py-2 hover:transition duration-300 hover:ease-in-out">&copy;</a>
         </div>
     </footer>
 
-    <!-- JavaScript for smooth scrolling -->
-    <script>
-        // Smooth scrolling for nav links
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+
     
 </body>
 </html>
